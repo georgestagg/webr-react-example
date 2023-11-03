@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useEffect, useState } from 'react'
-import { WebR } from '@r-wasm/webr';
+import { WebR } from 'webr';
 const webR = new WebR();
 
 async function getRandomNumbers() {
